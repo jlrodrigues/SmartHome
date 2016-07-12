@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SmartHome.VueModèle;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -8,10 +9,9 @@ using System.Windows;
 
 namespace SmartHome
 {
-    /// <summary>
-    /// Logique d'interaction pour App.xaml
-    /// </summary>
+
     public partial class App : Application
     {
+        public static MainViewModel VM = new MainViewModel();
     }
 }

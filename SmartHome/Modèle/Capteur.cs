@@ -10,7 +10,6 @@ namespace SmartHome.Modèle
     {
         public string Nom { get; set; }
         public List<Mesure> MesureList { get; set; }
-        //public int Taille { get { return MesureList.Count; } }
 
         public string Description { get; set; }
         public string Lieu { get; set; }

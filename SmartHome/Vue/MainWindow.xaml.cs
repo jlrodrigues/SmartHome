@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace SmartHome
+namespace SmartHome.Vue
 {
     /// <summary>
     /// Logique d'interaction pour MainWindow.xaml
@@ -23,6 +23,7 @@ namespace SmartHome
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = App.VM;
         }
     }
 }
