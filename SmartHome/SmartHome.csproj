@@ -73,6 +73,7 @@
     </ApplicationDefinition>
     <Compile Include="Modèle\Capteur.cs" />
     <Compile Include="Modèle\Mesure.cs" />
+    <Compile Include="Modèle\Traitement.cs" />
     <Compile Include="Modèle\Utilitaire.cs" />
     <Compile Include="VueModèle\MainViewModel.cs" />
     <Page Include="Vue\MainWindow.xaml">
@@ -115,6 +116,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <SplashScreen Include="SplashScreen.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

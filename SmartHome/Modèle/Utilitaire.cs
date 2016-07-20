@@ -33,7 +33,7 @@ namespace SmartHome.Modèle
                     var unitéGrandeur = xGrandeur.Attribute("unite").Value;
                     var abrevGrandeur = xGrandeur.Attribute("abreviation").Value;
 
-                    if (unCapteur.Lieu.Equals("Cuisine")) //box.Equals("netatmo")) //&& nomGrandeur.Equals("Temperature") || nomGrandeur.Equals("Co2") || nomGrandeur.Equals("Pression"))
+                    if (box.Equals("netatmo"))// && nomGrandeur.Equals("Temperature") || nomGrandeur.Equals("Co2") || nomGrandeur.Equals("Pression")) // Lieu.Equals("Cuisine")) 
                     {
                         unCapteur.Grandeure = new Capteur.Grandeur(nomGrandeur, unitéGrandeur, abrevGrandeur);
 

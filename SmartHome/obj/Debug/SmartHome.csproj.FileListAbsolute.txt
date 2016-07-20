@@ -24,3 +24,32 @@ C:\Users\J_Louis\Documents\ESGI\c#\SmartHome\SmartHome\SmartHome\obj\Debug\Smart
 C:\Users\J_Louis\Documents\ESGI\c#\SmartHome\SmartHome\SmartHome\obj\Debug\SmartHome.csproj.GenerateResource.Cache
 C:\Users\J_Louis\Documents\ESGI\c#\SmartHome\SmartHome\SmartHome\obj\Debug\SmartHome.exe
 C:\Users\J_Louis\Documents\ESGI\c#\SmartHome\SmartHome\SmartHome\obj\Debug\SmartHome.pdb
+C:\Users\Fabien gamel\Desktop\SmartHome-master\SmartHome\bin\Debug\SmartHome.exe.config
+C:\Users\Fabien gamel\Desktop\SmartHome-master\SmartHome\obj\Debug\SmartHome.exe
+C:\Users\Fabien gamel\Desktop\SmartHome-master\SmartHome\obj\Debug\SmartHome.pdb
+C:\Users\Fabien gamel\Desktop\SmartHome-Kitchen\SmartHome\bin\Debug\SmartHome.exe.config
+C:\Users\Fabien gamel\Desktop\SmartHome-Kitchen\SmartHome\obj\Debug\SmartHome.exe
+C:\Users\Fabien gamel\Desktop\SmartHome-Kitchen\SmartHome\obj\Debug\SmartHome.pdb
+C:\Users\Fabien gamel\Desktop\SmartHome-Kitchen\SmartHome\obj\Debug\Vue\MainWindow.g.cs
+C:\Users\Fabien gamel\Desktop\SmartHome-Kitchen\SmartHome\obj\Debug\App.g.cs
+C:\Users\Fabien gamel\Desktop\SmartHome-Kitchen\SmartHome\obj\Debug\SmartHome_MarkupCompile.cache
+C:\Users\Fabien gamel\Desktop\SmartHome-Kitchen\SmartHome\obj\Debug\SmartHome_MarkupCompile.lref
+C:\Users\Fabien gamel\Desktop\SmartHome-Kitchen\SmartHome\bin\Debug\SmartHome.exe
+C:\Users\Fabien gamel\Desktop\SmartHome-Kitchen\SmartHome\bin\Debug\SmartHome.pdb
+C:\Users\Fabien gamel\Desktop\SmartHome-Kitchen\SmartHome\bin\Debug\OxyPlot.dll
+C:\Users\Fabien gamel\Desktop\SmartHome-Kitchen\SmartHome\bin\Debug\OxyPlot.WindowsForms.dll
+C:\Users\Fabien gamel\Desktop\SmartHome-Kitchen\SmartHome\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\Fabien gamel\Desktop\SmartHome-Kitchen\SmartHome\bin\Debug\OxyPlot.Xps.dll
+C:\Users\Fabien gamel\Desktop\SmartHome-Kitchen\SmartHome\bin\Debug\OxyPlot.pdb
+C:\Users\Fabien gamel\Desktop\SmartHome-Kitchen\SmartHome\bin\Debug\OxyPlot.xml
+C:\Users\Fabien gamel\Desktop\SmartHome-Kitchen\SmartHome\bin\Debug\OxyPlot.WindowsForms.pdb
+C:\Users\Fabien gamel\Desktop\SmartHome-Kitchen\SmartHome\bin\Debug\OxyPlot.WindowsForms.xml
+C:\Users\Fabien gamel\Desktop\SmartHome-Kitchen\SmartHome\bin\Debug\OxyPlot.Wpf.pdb
+C:\Users\Fabien gamel\Desktop\SmartHome-Kitchen\SmartHome\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\Fabien gamel\Desktop\SmartHome-Kitchen\SmartHome\bin\Debug\OxyPlot.Xps.pdb
+C:\Users\Fabien gamel\Desktop\SmartHome-Kitchen\SmartHome\bin\Debug\OxyPlot.Xps.xml
+C:\Users\Fabien gamel\Desktop\SmartHome-Kitchen\SmartHome\obj\Debug\Vue\MainWindow.baml
+C:\Users\Fabien gamel\Desktop\SmartHome-Kitchen\SmartHome\obj\Debug\SmartHome.g.resources
+C:\Users\Fabien gamel\Desktop\SmartHome-Kitchen\SmartHome\obj\Debug\SmartHome.Properties.Resources.resources
+C:\Users\Fabien gamel\Desktop\SmartHome-Kitchen\SmartHome\obj\Debug\SmartHome.csproj.GenerateResource.Cache
+C:\Users\Fabien gamel\Desktop\SmartHome-Kitchen\SmartHome\obj\Debug\SmartHome.csprojResolveAssemblyReference.cache

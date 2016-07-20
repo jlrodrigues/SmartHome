@@ -25,5 +25,35 @@ namespace SmartHome.Vue
             InitializeComponent();
             DataContext = App.VM;
         }
+
+        private void btnClear_Click(object sender, RoutedEventArgs e)
+        {
+            App.VM.clearGraphe();
+        }
+
+        private void comboBoxLieu_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            App.VM.comboBoxSelectionChanged();
+        }
+
+        private void calendar_SelectedDatesChanged(object sender, SelectionChangedEventArgs e)
+        {
+            App.VM.calendarSelectedDateChanged((Calendar) sender);
+        }
+
+        private void btnTpsCuisine_Click(object sender, RoutedEventArgs e)
+        {
+            App.VM.timeSpentCooking();
+        }
+
+        private void btnquit_Click(object sender, RoutedEventArgs e)
+        {
+            App.VM.quitterAppli();
+        }
+
+        private void PlotView_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+
+        }
     }
 }

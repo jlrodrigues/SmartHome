@@ -6,8 +6,42 @@
         xmlns:oxy="http://oxyplot.org/wpf"
         xmlns:local="clr-namespace:SmartHome"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        <oxy:PlotView Model="{Binding MyModel}"/>
+        Background="#1E7FCB"
+        Title="Inspection Cuisine" Height="720" Width="975">
+    <Grid Margin="0,0,-8,30">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="166*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="175"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="175"/>
+            <ColumnDefinition Width="200*"/>
+        </Grid.ColumnDefinitions>
+        <Calendar SelectedDatesChanged="calendar_SelectedDatesChanged" SelectedDate="{Binding selectedDate}"
+            Grid.Column="0" Margin="11,33,18,0" x:Name="calendarStart" VerticalAlignment="Top" Height="182" Grid.Row="1"/>
+
+        <Label x:Name="labelChoixCapteur" Content="Choisir lieu des capteurs :" FontSize="15" FontFamily="calibri" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="26" Width="172"/>
+        <ComboBox x:Name="comboBoxLieu" ItemsSource="{Binding itemsComboBox}" SelectedItem="{Binding selectedItem}" SelectionChanged="comboBoxLieu_SelectionChanged"
+                  HorizontalAlignment="Left" Margin="9,48,0,0" VerticalAlignment="Top" Width="172" Height="22"/>
+
+        <Label x:Name="labelChoixDate" FontSize="15" FontFamily="calibri" Content="Choisir date :" HorizontalAlignment="Left" Margin="26,2,0,0" VerticalAlignment="Top" Width="187" Height="26" Grid.ColumnSpan="2" Grid.Row="1"/>
+        <Button x:Name="btnRefresh" Content="Effacer" HorizontalAlignment="Left" Margin="11,220,0,0" VerticalAlignment="Top" Width="76" Click="btnClear_Click" Height="20" Grid.Row="1"/>
+        <Button x:Name="btnquit" Content="Quitter" HorizontalAlignment="Left" Margin="105,220,0,0" VerticalAlignment="Top" Width="76" Click="btnquit_Click" Height="20" Grid.Row="1" RenderTransformOrigin="1.803,0.6"/>
+
+        <Label x:Name="labelTpsPasse" Content="Temps passé : " FontFamily="calibri" FontSize="15" Height="27" Grid.Column="1" Margin="10,20,10,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxTpsPasse" Grid.Column="2" Height="23" Margin="10,20,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <Label x:Name="labelCuisto" Content="Cuisinier : " Height="27" FontSize="15" FontFamily="calibri" Grid.Column="1" Margin="10,65,10,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextCuisto" Text="{Binding TextCuisto, Mode=TwoWay}" Grid.Column="2" Height="23" Margin="10,67,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Label x:Name="labelHeureRepas" Content="Heure du repas :" FontSize="15" FontFamily="calibri" Grid.Column="3" Margin="10,20,10,0" VerticalAlignment="Top" Height="27"/>
+        <TextBox x:Name="textBoxHeureRepas" Grid.Column="4" HorizontalAlignment="Left" Height="23" Margin="10,24,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="196"/>
+        <Label x:Name="labeTypeRepas" Content="Type de repas :"  FontSize="15" FontFamily="calibri" Grid.Column="3" Margin="10,65,10,0" VerticalAlignment="Top" Height="27" />
+        <TextBox x:Name="textBoxTypeRepas" Grid.Column="4" HorizontalAlignment="Left" Height="23" Margin="10,63,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="196"/>
+
+        <oxy:PlotView Grid.Column="1" Model="{Binding MyModel}"  Margin="10,10,30,10" Grid.Row="1" Grid.ColumnSpan="4" MouseDoubleClick="PlotView_MouseDoubleClick"/>
+        <Button x:Name="btnTpsCuisine" Content="Temps passé" HorizontalAlignment="Left" Margin="11,267,0,0" VerticalAlignment="Top" Width="76" Click="btnTpsCuisine_Click" Height="20" Grid.Row="1"/>
+
     </Grid>
 </Window>
